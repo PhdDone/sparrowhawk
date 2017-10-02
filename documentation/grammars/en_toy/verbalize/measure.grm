@@ -8,6 +8,10 @@ measures =
     ("centimeter" : "centimeters")
   | ("kilogram" : "kilograms")
   | ("degree" : "degrees")
+  | ("meter" : "meters")
+  | ("gram" : "grams")
+  | ("kilometer" : "kilometers")
+  | ("percent" : "percent")
 ;
 
 # quotation mark

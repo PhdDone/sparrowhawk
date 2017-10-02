@@ -22,11 +22,16 @@ money =
   u.I[q]
   u.I[" amount { "]
   u.I["integer_part: " q]
-  d+
+   (d+)
+   (","? : "")
+   (d*)
+   (","? : "")
+   (d*)
   u.I[q]
  (u.D["."]
   u.I[" fractional_part: " q]
   d{2}
+  #(d*)
   u.I[q])?
   u.I["} }"]
 ;

@@ -4,3 +4,5 @@ gbp_maj	pounds
 gbp_min	pence
 eur_maj	euros
 eur_min	cents
+chi_min	fen
+chi_maj	yuan

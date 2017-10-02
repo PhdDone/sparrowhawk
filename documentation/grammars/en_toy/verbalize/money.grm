@@ -87,6 +87,8 @@ singulars =
  | ("pounds" : "pound")
  | ("pence" : "penny")
  | ("euros" : "euro")
+ | ("yuan" : "yuan")
+ | ("jiao" : "jiao")
 ;
 
 singularize =

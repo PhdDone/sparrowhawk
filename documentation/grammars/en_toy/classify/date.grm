@@ -12,7 +12,11 @@ month = month_file | Project[month_file, 'output'];
 
 # Any number from 1-31:
 
+
 day = (d - "0") | "1" d | "2" d | "30" | "31";
+
+#day = (d - "0") | "1" d | "2" d | "30" | "31" | ("1st" : "1");
+
 
 # Any four digit number beginning with 1 or 2
 

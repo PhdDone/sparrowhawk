@@ -40,7 +40,8 @@ mdy =
   u.D["date" s "{" s]
   u.D["month:" s q]
   month
-  u.I[" the "]
+  #u.I[" the "]
+  u.I[" "]
   u.D[q s]
   u.D["day:" s q]
   day
@@ -55,7 +56,8 @@ mdy =
 # Verbalization for DMY
 dmy =
   u.D["date" s "{" s]
-  u.I["the "]
+  #u.I["the "]
+  u.I[" "]
   u.D["day:" s q]
   day
   u.D[q s]
